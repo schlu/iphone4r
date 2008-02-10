@@ -6,4 +6,5 @@ def copy_files(source_path, destination_path, directory)
 end
 directory = File.join(RAILS_ROOT, "vendor", "plugins", "iphone4r", "copy_on_install")
 copy_files("/script", "/script", directory)
+FileUtils.chmod 0755, File.join(RAILS_ROOT, "script", "ibug"), :verbose => true
 copy_files("/public/ibug", "/public/ibug", directory)
