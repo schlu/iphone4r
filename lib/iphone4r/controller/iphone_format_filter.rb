@@ -1,7 +1,7 @@
 module Iphone4r
   module Controller
     module IphoneFormatFilter
-      def adjust_format_for_iphone    
+      def adjust_format_for_iphone
         request.format = :iphone if iphone_request?
       end
 
