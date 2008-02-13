@@ -1,3 +1,5 @@
+require 'fileutils'
+RAILS_ROOT = File.dirname(__FILE__) + "/../../../" unless defined? RAILS_ROOT
 # Install hook code here
 def copy_files(source_path, destination_path, directory)
   source, destination = File.join(directory, source_path), File.join(RAILS_ROOT, destination_path)
