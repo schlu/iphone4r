@@ -1,7 +1,9 @@
 Iphone4r
 ========
 
-A plugin to debug iPhone and iPod Touch web applications.  Based Heavily on the amazing work of the amazing Joe Hewitt (http://joehewitt.com)
+iBug
+=======
+This portion of the plugin is to debug iPhone and iPod Touch web applications.  Based Heavily on the amazing work of the amazing Joe Hewitt (http://joehewitt.com)
 
 Currently, this is a near direct port of:
 http://www.joehewitt.com/blog/firebug_for_iph.php
@@ -18,6 +20,19 @@ Then point your browser at the server created by ./script/ibug, with a path of "
 At this point you can treat your browser like firebug (lite) on the iphone. And you can call console.log on your iPhone and the messages will show up on your browser window (pretty cool).
 
 This is has only been tested in firefox on mac leopard, I am eager to hear your feedback.  If you have any concerns, comments, questions or suggestions, email me at schlueter + at + gmail + . + com.
+
+Link Helpers
+===========
+Used to link to the native phone applications like YouTube, Gmaps, or Phone Dialer
+
+These methods are:
+link_to_map(text, q_value)
+
+link_to_you_tube(text, video_id)
+
+link_to_phone(number, options = {})
+
+These will work in or outside if iUi provided you use the modified version of iUi included in this plugin
 
 
 Credit
