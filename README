@@ -1,6 +1,12 @@
 Iphone4r
 ========
 
+Compatibility
+=======
+Rails Verisons: 2.0 and 2.1
+
+This is has only been tested in firefox on mac leopard, I am eager to hear your feedback.  If you have any concerns, comments, questions or suggestions, email me at schlueter + at + gmail + . + com.
+
 iBug
 =======
 This portion of the plugin is to debug iPhone and iPod Touch web applications.  Based Heavily on the amazing work of the amazing Joe Hewitt (http://joehewitt.com)
@@ -18,8 +24,6 @@ Instead of running ./script/console, run ./script/ibug, I hope this is only temp
 Then point your browser at the server created by ./script/ibug, with a path of "/ibug/firebug.html" (example: http://localhost:3000/ibug/firebug.html)
 
 At this point you can treat your browser like firebug (lite) on the iphone. And you can call console.log on your iPhone and the messages will show up on your browser window (pretty cool).
-
-This is has only been tested in firefox on mac leopard, I am eager to hear your feedback.  If you have any concerns, comments, questions or suggestions, email me at schlueter + at + gmail + . + com.
 
 Link Helpers
 ===========
